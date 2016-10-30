@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ifelse</title>
+<script type="text/javascript">
+  function ach()
+  {
+  var achievement;
+  achievement=80;
+  if(achievement<60)
+  {document.write("fail");}
+  if else(achievement<70)
+  {document.write("good");}
+  if else(achievement<80)
+  {document.write("very good");}
+  if else(achievement<90)
+  {document.write("great");}
+  if(achievement<=100)
+  {document.write("perfect");}
+  }
+</script>
+</head>
+<body>
+  <form>
+    <input name="button" value="achievement" onClick="ach()">
+  </form>
+</body>
+</html>
